@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2f281e;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  min-height: 1000vh;
+  /* max-width: 1440px; */
+  font-family: "Open Sans", "Tahoma", serif;
+}
+/* ummumiy classlar */
+
+.container {
+  max-width: 1440px;
+  padding: 0 120px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+  line-height: 46px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header {
+  padding: 16px 0;
+  margin: 0 auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.header__list-item {
+  margin-right: 40px;
+}
+
+.header__list-item:last-child {
+  margin-right: 40px;
+}
+
+.header__list-link {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #2f281e;
+}
+
+.header__list-link:hover {
+  cursor: pointer;
+  color: #ff9900;
+}
+
+.btn-box {
+  display: flex;
+}
+
+.btn {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  padding: 12px 27px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.signin {
+  color: #173a56;
+  margin-right: 15px;
+}
+
+.signin:hover {
+  background: #bcd0e5;
+}
+
+.signup {
+  background: #ff9900;
+  color: #ffff;
+}
+
+.signup:hover {
+  background: #ff7549;
+}
+
+/* HERO CSS */
+
+.hero {
+  /* display: flex; */
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+}
+
+.left__side {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-family: "Poppins";
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 30px;
+}
+
+.hero__text {
+  color: #544837;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+
+.get__started {
+  margin-right: 44px;
+}
+
+.get__started:last-child {
+  margin-right: 43px;
+}
+
+.watch__video {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  color: #ff9900;
+  border: none;
+}
+
+.watch__video:hover {
+  cursor: pointer;
+  color: #ff7549;
+}
+
+.play-logo {
+  margin-right: 10px;
+}
+/* HERO SECTION END */
+
+/* Testimonial section CSS */
+
+.main__container {
+  /* background: linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%); */
+}
+
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  background-image: url(../images/Bg.png);
+  background-position: bottom;
+}
+
+.test-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.testimonial__image {
+  margin-bottom: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.testimonial__title {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.testimonial__text {
+  width: 70%;
+}
+
+.testimonial__link {
+  display: inline-block;
+  border: 1px solid;
+  padding: 16px 37px;
+  background-color: #ff9900;
+  color: #ffffff;
+  margin-left: 40%;
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+
+.testimonial__link:hover {
+  cursor: pointer;
+  background-color: #ff7549;
+}
+
+/* MARKETING START CSS */
+
+.markets__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  display: flex;
+}
+
+.item {
+  display: flex;
+  margin-right: 10px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.link-item {
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  border-radius: 90px;
+  display: flex;
+  justify-content: start;
+  color: #544837;
+  font-size: 13px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 0 14px;
+}
+
+/* .link-item:active:home{} */
+
+/*End of Marketing css */
